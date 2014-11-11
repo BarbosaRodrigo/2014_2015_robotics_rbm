@@ -1,18 +1,16 @@
 /**
- * @file    obstacle_avoidance.cpp
+ * @file    straight_odometry.cpp
  * @brief   A template for webots projects.
  *
  * @author  Rodrigo Barbosa Moreno <100072651@alumnos.uc3m.es>
  * @date    2014-11
  */
-
-
 #include "MyRobot.h"
 
-
-
-/**
- * @brief Main program.
+/*
+ * Main program.
+ * The arguments of the main function can be specified by the
+ * "controllerArgs" field of the Robot node
  */
 int main(int argc, char **argv)
 {
